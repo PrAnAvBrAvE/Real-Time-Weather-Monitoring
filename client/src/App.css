@@ -1,0 +1,126 @@
+/* client/src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin: 20px 0;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.alert-item {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.daily-summary {
+  background-color: #e2f0d9;
+  border: 1px solid #c6e1b4;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.weather-card {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
+
+.weather-card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  height: 400px; /* Set a fixed height for the chart */
+  position: relative; /* Required for responsiveness */
+}
+
+.weather-card canvas {
+  width: 100% !important; /* Ensure chart takes full width */
+  height: 100% !important; /* Ensure chart takes full height */
+}
+/* client/src/App.css */
+
+.historical-trends {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+}
+
+.weather-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: calc(33.333% - 20px); /* Three cards per row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  height: 300px; /* Set a fixed height for the charts */
+}
+
