@@ -24,11 +24,15 @@ Develop a system that:
    Add the API key to your environment variables or configuration file.
 3. **Run the System**:
    ```bash
-   # Install dependencies
+   # Server
+   cd server
    npm install
+   node server.js
 
-   # Start the server
-   npm start
+   # Client
+   cd client
+   npm install
+   npm run dev
 
 ### Data Structure
 The system focuses on the following parameters from the OpenWeatherMap API:
