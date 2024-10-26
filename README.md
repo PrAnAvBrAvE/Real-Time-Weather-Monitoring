@@ -18,6 +18,9 @@ Develop a system that:
    - Configurable alerts based on user-defined temperature or weather condition thresholds (e.g., alert if temperature exceeds 35°C for two consecutive updates).
 5. **Visualization**: Displays daily summaries, historical trends, and triggered alerts.
 
+### Bonus Feature implmenented
+Implementation of graphs using chart.js
+
 ## Setup Instructions
 1. **API Key**: Sign up on [OpenWeatherMap](https://openweathermap.org/) and obtain a free API key.
 2. **Configure API Key**:
